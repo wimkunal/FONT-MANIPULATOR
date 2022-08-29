@@ -26,6 +26,10 @@ body {
 canvas{
    border:5px solid rgb(255, 0, 217);
    border-radius:20px;
-   background-color:rgb(181, 102, 246);
 
+}
+video{
+    border:5px solid rgb(0, 17, 255);
+    border-radius:20px; 
+    background-color:orange;
 }

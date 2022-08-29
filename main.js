@@ -1,6 +1,6 @@
 function setup() {
     video = createCapture(VIDEO);
-    video.size(550,500);
+    video.size(550,550);
     canvas = createCanvas(550,550);
     canvas.position(600,150);
     poseNet = ml5.poseNet(video, modelLoaded);
@@ -18,5 +18,5 @@ function gotPoses(results) {
 }
 
 function draw() {
-    background('#add8e6');
+    background('#A020F0');
 }
